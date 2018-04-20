@@ -37,7 +37,7 @@ include 'inc/cookies.inc.php';
 					<h4><?php 
 					echo $_COOKIE['cuption'];
 					if (isset($_COOKIE['name'])) {echo 'Мы рады познакомиться с Вами <br><b>'.$userSname.' '.$userName.' '.$userOname.'.</b> <br><br> Теперь мы вас запомним на долго ))))';}
-											else {echo "Здраствуйте давайте познакомимся, <br> <br>перейдите на урок №7 для Авторизации";}?>
+											else {echo 'Здраствуйте давайте познакомимся, <br> перейдите на вкладку "Кукки и Сессии" <br>для Авторизации';}?>
 					</h4>
 					</div>
 					<div class="row">
